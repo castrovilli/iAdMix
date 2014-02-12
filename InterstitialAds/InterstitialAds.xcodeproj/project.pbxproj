@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760BD9CC18ABD12B00629875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD9CB18ABD12B00629875 /* Foundation.framework */; };
+		760BD9CE18ABD12B00629875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD9CD18ABD12B00629875 /* CoreGraphics.framework */; };
+		760BD9D018ABD12B00629875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD9CF18ABD12B00629875 /* UIKit.framework */; };
+		760BD9D618ABD12B00629875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 760BD9D418ABD12B00629875 /* InfoPlist.strings */; };
+		760BD9D818ABD12B00629875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BD9D718ABD12B00629875 /* main.m */; };
+		760BD9DC18ABD12B00629875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BD9DB18ABD12B00629875 /* AppDelegate.m */; };
+		760BD9DF18ABD12B00629875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760BD9DD18ABD12B00629875 /* Main_iPhone.storyboard */; };
+		760BD9E218ABD12B00629875 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760BD9E018ABD12B00629875 /* Main_iPad.storyboard */; };
+		760BD9E518ABD12B00629875 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BD9E418ABD12B00629875 /* ViewController.m */; };
+		760BD9E718ABD12B00629875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760BD9E618ABD12B00629875 /* Images.xcassets */; };
+		760BD9EE18ABD12B00629875 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD9ED18ABD12B00629875 /* XCTest.framework */; };
+		760BD9EF18ABD12B00629875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD9CB18ABD12B00629875 /* Foundation.framework */; };
+		760BD9F018ABD12B00629875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD9CF18ABD12B00629875 /* UIKit.framework */; };
+		760BD9F818ABD12B00629875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 760BD9F618ABD12B00629875 /* InfoPlist.strings */; };
+		760BD9FA18ABD12B00629875 /* InterstitialAdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BD9F918ABD12B00629875 /* InterstitialAdsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		760BD9F118ABD12B00629875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 760BD9C018ABD12B00629875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760BD9C718ABD12B00629875;
+			remoteInfo = InterstitialAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		760BD9C818ABD12B00629875 /* InterstitialAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterstitialAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		760BD9CB18ABD12B00629875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		760BD9CD18ABD12B00629875 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		760BD9CF18ABD12B00629875 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		760BD9D318ABD12B00629875 /* InterstitialAds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InterstitialAds-Info.plist"; sourceTree = "<group>"; };
+		760BD9D518ABD12B00629875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		760BD9D718ABD12B00629875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		760BD9D918ABD12B00629875 /* InterstitialAds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterstitialAds-Prefix.pch"; sourceTree = "<group>"; };
+		760BD9DA18ABD12B00629875 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		760BD9DB18ABD12B00629875 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		760BD9DE18ABD12B00629875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		760BD9E118ABD12B00629875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		760BD9E318ABD12B00629875 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		760BD9E418ABD12B00629875 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		760BD9E618ABD12B00629875 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		760BD9EC18ABD12B00629875 /* InterstitialAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterstitialAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		760BD9ED18ABD12B00629875 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		760BD9F518ABD12B00629875 /* InterstitialAdsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InterstitialAdsTests-Info.plist"; sourceTree = "<group>"; };
+		760BD9F718ABD12B00629875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		760BD9F918ABD12B00629875 /* InterstitialAdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		760BD9C518ABD12B00629875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760BD9CE18ABD12B00629875 /* CoreGraphics.framework in Frameworks */,
+				760BD9D018ABD12B00629875 /* UIKit.framework in Frameworks */,
+				760BD9CC18ABD12B00629875 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760BD9E918ABD12B00629875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760BD9EE18ABD12B00629875 /* XCTest.framework in Frameworks */,
+				760BD9F018ABD12B00629875 /* UIKit.framework in Frameworks */,
+				760BD9EF18ABD12B00629875 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760BD9BF18ABD12B00629875 = {
+			isa = PBXGroup;
+			children = (
+				760BD9D118ABD12B00629875 /* InterstitialAds */,
+				760BD9F318ABD12B00629875 /* InterstitialAdsTests */,
+				760BD9CA18ABD12B00629875 /* Frameworks */,
+				760BD9C918ABD12B00629875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		760BD9C918ABD12B00629875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				760BD9C818ABD12B00629875 /* InterstitialAds.app */,
+				760BD9EC18ABD12B00629875 /* InterstitialAdsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760BD9CA18ABD12B00629875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				760BD9CB18ABD12B00629875 /* Foundation.framework */,
+				760BD9CD18ABD12B00629875 /* CoreGraphics.framework */,
+				760BD9CF18ABD12B00629875 /* UIKit.framework */,
+				760BD9ED18ABD12B00629875 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		760BD9D118ABD12B00629875 /* InterstitialAds */ = {
+			isa = PBXGroup;
+			children = (
+				760BD9DA18ABD12B00629875 /* AppDelegate.h */,
+				760BD9DB18ABD12B00629875 /* AppDelegate.m */,
+				760BD9DD18ABD12B00629875 /* Main_iPhone.storyboard */,
+				760BD9E018ABD12B00629875 /* Main_iPad.storyboard */,
+				760BD9E318ABD12B00629875 /* ViewController.h */,
+				760BD9E418ABD12B00629875 /* ViewController.m */,
+				760BD9E618ABD12B00629875 /* Images.xcassets */,
+				760BD9D218ABD12B00629875 /* Supporting Files */,
+			);
+			path = InterstitialAds;
+			sourceTree = "<group>";
+		};
+		760BD9D218ABD12B00629875 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				760BD9D318ABD12B00629875 /* InterstitialAds-Info.plist */,
+				760BD9D418ABD12B00629875 /* InfoPlist.strings */,
+				760BD9D718ABD12B00629875 /* main.m */,
+				760BD9D918ABD12B00629875 /* InterstitialAds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		760BD9F318ABD12B00629875 /* InterstitialAdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				760BD9F918ABD12B00629875 /* InterstitialAdsTests.m */,
+				760BD9F418ABD12B00629875 /* Supporting Files */,
+			);
+			path = InterstitialAdsTests;
+			sourceTree = "<group>";
+		};
+		760BD9F418ABD12B00629875 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				760BD9F518ABD12B00629875 /* InterstitialAdsTests-Info.plist */,
+				760BD9F618ABD12B00629875 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		760BD9C718ABD12B00629875 /* InterstitialAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760BD9FD18ABD12B00629875 /* Build configuration list for PBXNativeTarget "InterstitialAds" */;
+			buildPhases = (
+				760BD9C418ABD12B00629875 /* Sources */,
+				760BD9C518ABD12B00629875 /* Frameworks */,
+				760BD9C618ABD12B00629875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterstitialAds;
+			productName = InterstitialAds;
+			productReference = 760BD9C818ABD12B00629875 /* InterstitialAds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		760BD9EB18ABD12B00629875 /* InterstitialAdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760BDA0018ABD12B00629875 /* Build configuration list for PBXNativeTarget "InterstitialAdsTests" */;
+			buildPhases = (
+				760BD9E818ABD12B00629875 /* Sources */,
+				760BD9E918ABD12B00629875 /* Frameworks */,
+				760BD9EA18ABD12B00629875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				760BD9F218ABD12B00629875 /* PBXTargetDependency */,
+			);
+			name = InterstitialAdsTests;
+			productName = InterstitialAdsTests;
+			productReference = 760BD9EC18ABD12B00629875 /* InterstitialAdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		760BD9C018ABD12B00629875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = limalogy;
+				TargetAttributes = {
+					760BD9EB18ABD12B00629875 = {
+						TestTargetID = 760BD9C718ABD12B00629875;
+					};
+				};
+			};
+			buildConfigurationList = 760BD9C318ABD12B00629875 /* Build configuration list for PBXProject "InterstitialAds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 760BD9BF18ABD12B00629875;
+			productRefGroup = 760BD9C918ABD12B00629875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				760BD9C718ABD12B00629875 /* InterstitialAds */,
+				760BD9EB18ABD12B00629875 /* InterstitialAdsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		760BD9C618ABD12B00629875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760BD9E218ABD12B00629875 /* Main_iPad.storyboard in Resources */,
+				760BD9E718ABD12B00629875 /* Images.xcassets in Resources */,
+				760BD9DF18ABD12B00629875 /* Main_iPhone.storyboard in Resources */,
+				760BD9D618ABD12B00629875 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760BD9EA18ABD12B00629875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760BD9F818ABD12B00629875 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760BD9C418ABD12B00629875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760BD9E518ABD12B00629875 /* ViewController.m in Sources */,
+				760BD9DC18ABD12B00629875 /* AppDelegate.m in Sources */,
+				760BD9D818ABD12B00629875 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760BD9E818ABD12B00629875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760BD9FA18ABD12B00629875 /* InterstitialAdsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		760BD9F218ABD12B00629875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 760BD9C718ABD12B00629875 /* InterstitialAds */;
+			targetProxy = 760BD9F118ABD12B00629875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		760BD9D418ABD12B00629875 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760BD9D518ABD12B00629875 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		760BD9DD18ABD12B00629875 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760BD9DE18ABD12B00629875 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		760BD9E018ABD12B00629875 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760BD9E118ABD12B00629875 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		760BD9F618ABD12B00629875 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760BD9F718ABD12B00629875 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		760BD9FB18ABD12B00629875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		760BD9FC18ABD12B00629875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		760BD9FE18ABD12B00629875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterstitialAds/InterstitialAds-Prefix.pch";
+				INFOPLIST_FILE = "InterstitialAds/InterstitialAds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		760BD9FF18ABD12B00629875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterstitialAds/InterstitialAds-Prefix.pch";
+				INFOPLIST_FILE = "InterstitialAds/InterstitialAds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		760BDA0118ABD12B00629875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InterstitialAds.app/InterstitialAds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterstitialAds/InterstitialAds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InterstitialAdsTests/InterstitialAdsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		760BDA0218ABD12B00629875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InterstitialAds.app/InterstitialAds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterstitialAds/InterstitialAds-Prefix.pch";
+				INFOPLIST_FILE = "InterstitialAdsTests/InterstitialAdsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		760BD9C318ABD12B00629875 /* Build configuration list for PBXProject "InterstitialAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760BD9FB18ABD12B00629875 /* Debug */,
+				760BD9FC18ABD12B00629875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760BD9FD18ABD12B00629875 /* Build configuration list for PBXNativeTarget "InterstitialAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760BD9FE18ABD12B00629875 /* Debug */,
+				760BD9FF18ABD12B00629875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		760BDA0018ABD12B00629875 /* Build configuration list for PBXNativeTarget "InterstitialAdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760BDA0118ABD12B00629875 /* Debug */,
+				760BDA0218ABD12B00629875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 760BD9C018ABD12B00629875 /* Project object */;
+}
