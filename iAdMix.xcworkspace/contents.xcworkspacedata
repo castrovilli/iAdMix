@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PreRollVideoAds/PreRollVideoAds.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediumRectangleAds/MediumRectangleAds.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:InterstitialAds/InterstitialAds.xcodeproj">
    </FileRef>
    <FileRef

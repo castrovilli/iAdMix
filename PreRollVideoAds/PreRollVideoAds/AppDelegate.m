@@ -1,20 +1,22 @@
 //
 //  AppDelegate.m
-//  InterstitialAds
+//  PreRollVideoAds
 //
-//  Created by grharon on 2/12/14.
+//  Created by grharon on 2/17/14.
 //  Copyright (c) 2014 limalogy. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import <iAd/iAd.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [MPMoviePlayerController preparePrerollAds];
+    
     // Override point for customization after application launch.
-    [UIViewController prepareInterstitialAds];
     return YES;
 }
 							

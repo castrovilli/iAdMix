@@ -26,4 +26,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UIViewController *destination = [segue destinationViewController];
+    destination.interstitialPresentationPolicy = ADInterstitialPresentationPolicyAutomatic;
+}
+
+-(void)interstitialAd:(ADInterstitialAd *)interstitialAd didFailWithError:(NSError *)error
+{
+    NSLog(@"interstitialAd didFailWithError");
+}
+
+-(void)interstitialAdDidUnload:(ADInterstitialAd *)interstitialAd {
+    NSLog(@"interstitialAd interstitialAdDidUnload");
+ 
+}
+
 @end

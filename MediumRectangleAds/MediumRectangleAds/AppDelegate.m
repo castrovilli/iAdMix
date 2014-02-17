@@ -1,21 +1,20 @@
 //
 //  AppDelegate.m
-//  InterstitialAds
+//  MediumRectangleAds
 //
-//  Created by grharon on 2/12/14.
+//  Created by grharon on 2/13/14.
 //  Copyright (c) 2014 limalogy. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import <iAd/iAd.h>
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [UIViewController prepareInterstitialAds];
-    return YES;
+     return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

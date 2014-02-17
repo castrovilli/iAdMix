@@ -22,6 +22,7 @@
 		760BD9AC18ABD03100629875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD98B18ABD03000629875 /* UIKit.framework */; };
 		760BD9B418ABD03100629875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 760BD9B218ABD03100629875 /* InfoPlist.strings */; };
 		760BD9B618ABD03100629875 /* BannerAdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BD9B518ABD03100629875 /* BannerAdsTests.m */; };
+		760BDA0418ABD61100629875 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BDA0318ABD61000629875 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		760BD9B118ABD03100629875 /* BannerAdsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BannerAdsTests-Info.plist"; sourceTree = "<group>"; };
 		760BD9B318ABD03100629875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		760BD9B518ABD03100629875 /* BannerAdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerAdsTests.m; sourceTree = "<group>"; };
+		760BDA0318ABD61000629875 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760BDA0418ABD61100629875 /* iAd.framework in Frameworks */,
 				760BD98A18ABD03000629875 /* CoreGraphics.framework in Frameworks */,
 				760BD98C18ABD03000629875 /* UIKit.framework in Frameworks */,
 				760BD98818ABD03000629875 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		760BD98618ABD03000629875 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				760BDA0318ABD61000629875 /* iAd.framework */,
 				760BD98718ABD03000629875 /* Foundation.framework */,
 				760BD98918ABD03000629875 /* CoreGraphics.framework */,
 				760BD98B18ABD03000629875 /* UIKit.framework */,

@@ -9,48 +9,32 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sfA-Md-auW"/>
-                        <viewControllerLayoutGuide type="bottom" id="ThV-i5-iQb"/>
+                        <viewControllerLayoutGuide type="top" id="cH4-qN-ErM"/>
+                        <viewControllerLayoutGuide type="bottom" id="7GA-xe-2vr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBB-7A-6TW">
-                                <rect key="frame" x="87" y="264" width="134" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tO-SA-dFB">
+                                <rect key="frame" x="80" y="269" width="160" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Click Me on iPhone">
+                                <state key="normal" title="Pre Roll Video Ads Test">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bXl-cd-h2u" kind="modal" id="BLx-a4-QeY"/>
+                                    <action selector="testButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1ha-Zs-0U3"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="testButton" destination="7tO-SA-dFB" id="818-pW-4Ww"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="21"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Cj0-Pc-hnp">
-            <objects>
-                <viewController id="bXl-cd-h2u" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6Pl-Xj-M5E"/>
-                        <viewControllerLayoutGuide type="bottom" id="Qey-X8-3Sv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="65y-PP-IXi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2r3-L6-w5B" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="450" y="26"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
